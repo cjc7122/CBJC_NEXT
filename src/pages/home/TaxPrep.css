@@ -1,0 +1,157 @@
+body {
+    line-height: 1.6;
+    background-color: white;
+  }
+  
+  @media (min-width: 755px) {
+    .checklist-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      text-align: left;
+      background-color: #fff;
+      border-radius: 8px;
+      position: relative; /* Allow positioned children to extend beyond the container */
+      overflow: visible;
+    }
+    
+    .checklist-container .checklist-content {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+    }
+    
+    .checklist-container p {
+      font-size: 16px;
+      color: #333;
+      margin: 15px 0;
+      max-width: 800px;
+      text-align: left;
+    }
+    
+    .checklist-container .italic-note {
+      font-style: italic;
+      color: #555;
+      margin-top: 15px;
+    }
+
+    .btnContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .pdf-link {
+      padding: 15px 10px;
+      font-size: 1.4rem;
+      height: 100px;
+      margin: 20px;
+      color: white;
+      background-color: #5d8aa8; /* Button color */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-align: center;
+    }
+    
+    .pdf-link:hover {
+      background-color: #4c7391;
+    }
+    
+    .contact-link {
+      color: #004f9f;
+      text-decoration: underline;
+    }
+    
+    .contact-link:hover {
+      color: #003080;
+    }
+  }
+  
+  @media (max-width: 755px) {
+    body {
+      line-height: 1.6;
+      background-color: white;
+    }
+  
+    .checklist-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 15px; /* Add padding for better spacing */
+      text-align: left;
+      background-color: #fff;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden; /* Prevent overflow issues */
+    }
+  
+    .checklist-container .checklist-content {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      max-width: 100%; /* Use full width for small screens */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .checklist-container p {
+      font-size: 14px; /* Adjust font size for better readability */
+      color: #333;
+      margin: 10px 0;
+      text-align: left;
+    }
+  
+    .checklist-container .italic-note {
+      font-style: italic;
+      color: #555;
+      font-size: 12px; /* Reduce font size for smaller screens */
+      margin-top: 10px;
+    }
+  
+    .btnContainer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .pdf-link {
+      width: 100%; /* Full width button for mobile */
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+      height: auto; /* Allow height to adjust */
+      padding: 10px 15px; /* Adjust padding */
+      margin: 10px 0; /* Reduce margin for smaller screens */
+      color: white;
+      background-color: #5d8aa8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-align: center;
+      box-sizing: border-box; /* Ensure padding doesn't affect size */
+    }
+  
+    .pdf-link:hover {
+      background-color: #4c7391;
+    }
+  
+    .contact-link {
+      color: #004f9f;
+      text-decoration: underline;
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .contact-link:hover {
+      color: #003080;
+    }
+  }
+  

@@ -1,0 +1,76 @@
+body {
+  line-height: 1.6;
+  background-color: white;
+}
+
+@media (min-width: 755px) {
+  .histories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    background-color: #fff;
+    position: relative; /* Allow positioned children to extend beyond the container */
+    overflow: visible; /* Ensure children can extend beyond boundaries */
+  }
+
+  .history-container {
+    min-width: 600px;
+    background-color: #fff;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  .history-container .content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .history-container p {
+    margin: 15px 0;
+    max-width: 800px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 755px) {
+  .histories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    overflow: hidden; /* Prevent overflow issues */
+  }
+
+  .history-container {
+    width: 100%; /* Use full width for mobile */
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .history-container .content {
+    max-width: 100%; /* Allow full width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .history-container p {
+    margin: 10px 0;
+    max-width: 100%;
+    font-size: 14px; /* Adjust font size for readability */
+    text-align: left;
+  }
+}

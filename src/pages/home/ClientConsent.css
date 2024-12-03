@@ -1,0 +1,65 @@
+/* General Styling */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Consents Container */
+.consents-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.consent-container {
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.consent-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.consent-container .closing {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Button Styling */
+.pdf-button {
+  background-color: #5d8aa8;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-button:hover {
+  background-color: #4c7391;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .consent-container {
+    padding: 20px;
+  }
+}

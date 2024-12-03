@@ -1,0 +1,144 @@
+/* Page Wrapper */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Careers Container */
+  .CareersContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .CareerContainer {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Career Card */
+  .CareerCard {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CareerCard h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #1e4b8d;
+  }
+  
+  .CareerCard p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .CareerCard button {
+    background-color: #5d8aa8;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .CareerCard button:hover {
+    background-color: #4c7391; /* Change background color on hover */
+  }
+  
+  .CareerCard strong {
+    color: #000;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /* Form Styles */
+  .application-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .application-form input,
+  .application-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .application-form textarea {
+    resize: vertical;
+  }
+
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal-buttons button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .modal-buttons button[type="submit"] {
+    background-color: #1e4b8d;
+    color: #fff;
+  }
+
+  .modal-buttons button[type="button"] {
+    background-color: #ccc;
+  }
+
+    

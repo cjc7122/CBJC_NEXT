@@ -1,0 +1,163 @@
+body {
+  line-height: 1.6;
+  background-color: white;
+}
+
+@media (min-width: 755px) {
+  .button_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    background-color: #fff;
+    position: relative; /* Allow positioned children to extend beyond the container */
+    overflow: visible;
+  }
+
+  .button_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+    grid-template-rows: repeat(3, auto);   /* Always 3 rows */
+    gap: 10px; /* Space between buttons */
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+    min-width: 600px;
+    max-width: 900px;
+  }
+
+  .service_button {
+    padding: 15px 10px;
+    font-size: 1.4rem;
+    height: 150px;
+    color: white;
+    background-color: #5d8aa8; /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .service_button:hover {
+    background-color: #4c7391; /* Hover effect */
+    text-decoration: none;
+    transform: scale(1.02);
+  }
+
+  .button_container h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .button_container h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .button_container ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .button_container ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .service-container p {
+    margin: 15px 0;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .button_container a {
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@media (max-width: 755px) {
+  .button_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px; /* Add spacing */
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden; /* Prevent any content overflow */
+  }
+
+  .button_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal size */
+    gap: 10px; /* Space between buttons */
+    width: 100%; /* Use full width */
+    padding-top: 10px; /* Add spacing at the top */
+    box-sizing: border-box; /* Maintain consistent sizing */
+  }
+  
+  .service_button {
+    height: 150px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #5d8aa8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .service_button:hover {
+    background-color: #4c7391; /* Hover effect */
+    transform: scale(1.02);
+  }
+  
+
+  .button_container h2,
+  .button_container h3 {
+    font-size: 16px; /* Smaller headings for mobile */
+    margin-top: 10px; /* Adjust spacing for compact design */
+    text-align: center;
+  }
+
+  .button_container ul {
+    margin: 10px 0;
+    padding-left: 15px; /* Adjust padding for mobile */
+    text-align: center;
+  }
+
+  .button_container ul li {
+    margin: 8px 0; /* Reduce spacing between list items */
+    text-align: center;
+    font-size: 14px; /* Slightly smaller text */
+  }
+
+  .service-container p {
+    margin: 10px 0;
+    max-width: 100%; /* Use full width for small screens */
+    font-size: 14px; /* Adjust font size for readability */
+    text-align: center;
+  }
+
+  .button_container a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px; /* Smaller font for links */
+  }
+}

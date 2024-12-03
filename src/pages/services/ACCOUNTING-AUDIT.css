@@ -1,0 +1,167 @@
+  body {
+    line-height: 1.6;
+    background-color: white
+  }
+
+  @media (min-width: 755px) {
+    .audits-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0px 0px 20px 0px;
+      text-align: center;
+      background-color: #fff;
+      position: relative; /* Allow positioned children to extend beyond the container */
+      overflow: visible; /* Ensure children can extend beyond boundaries */
+    }
+
+    .audit-container {
+      min-width: 600px;
+      background-color: #fff;
+      padding-top: 20px;
+      border-radius: 8px;
+    }
+
+    .audit-container .content {
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+    }
+    
+    .audit-container h1 {
+      font-size: 24px;
+      color: #004f9f;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .audits-container h2 {
+      color: #004f9f;
+      font-size: 24px;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+    
+    .audits-container .audit-container h2 {
+      color: #004f9f;
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    .audit-container h3 {
+      font-size: 18px;
+      margin-top: 15px;
+      text-align: left;
+    }
+    
+    .audit-container ul {
+      margin: 5px 0;
+      padding-left: 20px;
+      text-align: left;
+    }
+    
+    .audit-container ul li {
+      margin: 10px 0;
+      text-align: left;
+    }
+    
+    .audit-container p {
+      margin: 15px 0;
+      max-width: 800px;
+      text-align: left;
+    }
+    
+    .audit-container a {
+      color: #004f9f;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    .audit-container a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: 755px) {
+    .audits-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 15px;
+      text-align: center;
+      background-color: #fff;
+      overflow: hidden; /* Prevent content overflow */
+    }
+  
+    .audit-container {
+      width: 100%; /* Use full width for small screens */
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      box-sizing: border-box; /* Ensure consistent sizing */
+    }
+  
+    .audit-container .content {
+      max-width: 100%; /* Use full width */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .audit-container h1 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+      color: #004f9f;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+  
+    .audits-container h2 {
+      color: #004f9f;
+      font-size: 18px; /* Smaller font size */
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .audit-container h3 {
+      font-size: 16px; /* Adjust font size */
+      margin-top: 10px;
+      text-align: left;
+    }
+  
+    .audit-container ul {
+      margin: 5px 0;
+      padding-left: 15px; /* Adjust padding for mobile */
+      text-align: left;
+    }
+  
+    .audit-container ul li {
+      margin: 8px 0; /* Reduce spacing between list items */
+      font-size: 14px; /* Smaller text size */
+      text-align: left;
+    }
+  
+    .audit-container p {
+      margin: 10px 0;
+      max-width: 100%; /* Allow full width on mobile */
+      font-size: 14px; /* Adjust font size for readability */
+      text-align: left;
+    }
+  
+    .audit-container a {
+      color: #004f9f;
+      text-decoration: none;
+      text-align: left;
+      font-size: 14px; /* Adjust link font size */
+    }
+  
+    .audit-container a:hover {
+      text-decoration: underline;
+    }
+  }
+  

@@ -1,0 +1,191 @@
+body {
+  line-height: 1.6;
+  background-color: white;
+}
+
+@media (min-width: 755px) {
+  .abouts-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 0px 0px 20px 0px;
+    border-radius: 8px;
+    position: relative;
+    overflow: visible; /* Allow positioned children to extend beyond the container */
+  }
+
+  .abouts-container h2 {
+    color: #004f9f;
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .about-container {
+    min-width: 600px;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .partner_h1 {
+    margin-bottom: 10px;
+  }
+
+  .abouts-container p {
+    max-width: 800px;
+  }
+
+  .about-container .content {
+    margin: 0px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .abouts-postcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+
+  .abouts-postcard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 44%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .abouts-container .team-grid {
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+    max-width: 1300px;
+    margin: 0px auto 40px auto;
+    padding: 10px;
+  }
+
+  .team-member p {
+    text-align: left;
+  }
+
+  .affiliations {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .affiliations li {
+    margin: 10px 0;
+  }
+
+  a {
+    color: #004f9f;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 755px) {
+  .abouts-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .abouts-container h2 {
+    font-size: 20px; /* Adjusted font size for mobile */
+    color: #004f9f;
+    margin: 10px 0;
+  }
+
+  .about-container {
+    width: 100%; /* Use full width for mobile screens */
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box; /* Consistent sizing */
+  }
+
+  .about-container .content {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .abouts-postcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; /* Adjusted for mobile */
+    margin: 0 auto;
+  }
+
+  .abouts-postcard {
+    width: auto; /* Full width for mobile */
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 14px; /* Adjust font size for mobile */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow for mobile */
+  }
+
+  .grid-holder {
+    display: flex;
+    justify-content: center;
+  }
+
+  .abouts-container .team-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr 1fr; /* Single-column layout */
+    justify-content: center; /* Center the grid itself on the screen */
+    gap: 15px;
+    width: auto; /* Make the grid responsive */
+    max-width: 600px; /* Optional: Limit the grid width for better appearance */
+    margin: 0 auto 20px auto; /* Center the grid horizontally and add spacing at the bottom */
+    padding: 10px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left within each team member */
+    text-align: left; /* Ensure text remains left-aligned */
+    width: auto; /* Use the full width of the grid cell */
+  }
+  
+  .team-member p {
+    text-align: left; /* Ensure text remains left-aligned */
+    font-size: 12px; /* Adjust font size for readability */
+  }
+  
+
+  .affiliations {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .affiliations li {
+    font-size: 14px; /* Smaller text size for mobile */
+    margin: 8px 25px;
+  }
+}

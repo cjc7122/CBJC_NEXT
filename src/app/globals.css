@@ -1,42 +1,154 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
   }
-}
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+  body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700; /* Lato Bold */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
   }
-}
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .background-section {
+    background-image: url('/line-graph.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  @media (min-width: 755px) {
+    .background-section {
+      margin-top: 190px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .overlay h1 {
+      font-size: 36px;
+      color: #000;
+      margin: 0px 0px 0px 0px;
+    }
+
+    .overlay h2 {
+      color: #004f9f;
+      margin: 10px 0px 0px 0px;
+    }
+
+    .overlay hr {
+      border: none;           /* Remove the default border */
+      border-top: 2px solid #333; /* Set thickness and color */
+      width: 70%;             /* Optional: set the width */
+      margin: 0px auto;
+    }
+    
+    .learn-more-btn {
+      background-color: rgb(30, 75, 141); /* Blue background for the button */
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 24px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Button hover effect */
+    .learn-more-btn:hover {
+      background-color: grey; /* Darker blue on hover */
+    }
+
+    .cta-button {
+      background-color: #004f9f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: grey;
+    }
+  }
+
+  @media (max-width: 755px) {
+    .background-section {
+      margin-top: 160px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .overlay {
+      max-width: 80%;
+    }
+    
+    .overlay h1 {
+      font-size: 18px;
+      color: #000;
+      margin: 0px 0px 0px 0px;
+    }
+  
+    .overlay h2 {
+      color: #004f9f;
+      margin: 10px 0px 0px 0px;
+    }
+  
+    .overlay hr {
+      border: none;           /* Remove the default border */
+      border-top: 2px solid #333; /* Set thickness and color */
+      width: 70%;             /* Optional: set the width */
+      margin: 10px auto 0px auto;
+    }
+    
+    .learn-more-btn {
+      background-color: rgb(30, 75, 141); /* Blue background for the button */
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      margin: 10px auto 0px auto;
+      font-size: 24px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    /* Button hover effect */
+    .learn-more-btn:hover {
+      background-color: grey; /* Darker blue on hover */
+    }
+
+    .cta-button {
+      background-color: #004f9f;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background-color: grey;
+    }
+  }

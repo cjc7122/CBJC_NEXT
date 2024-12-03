@@ -1,0 +1,186 @@
+body {
+  line-height: 1.6;
+  background-color: white;
+}
+
+@media (min-width: 755px) {
+  .faqs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    overflow: visible;
+  }
+
+  .faq-container,
+  .faq-container2 {
+    min-width: 600px;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  .faq-container .content,
+  .faq-container2 .content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .faq-container h1,
+  .faq-container2 h1 {
+    font-size: 24px;
+    color: #004f9f;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .faqs-container h2 {
+    color: #004f9f;
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .faqs-container .faq-container h2,
+  .faqs-container .faq-container2 h2 {
+    color: #004f9f;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .faq-container h3,
+  .faq-container2 h3 {
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .faq-container ul,
+  .faq-container2 ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    text-align: left;
+  }
+
+  .faq-container ul li,
+  .faq-container2 ul li {
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .faq-container p,
+  .faq-container2 p {
+    margin: 15px 0;
+    max-width: 800px;
+    text-align: left;
+  }
+
+  .faq-container a,
+  .faq-container2 a {
+    color: #004f9f;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .faq-container a:hover,
+  .faq-container2 a:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 755px) {
+  .faqs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px; /* Add spacing for smaller screens */
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden; /* Prevent any overflow issues */
+  }
+
+  .faq-container,
+  .faq-container2 {
+    width: 100%; /* Use full width for mobile screens */
+    background-color: #fff;
+    padding: 10px; /* Adjust padding for compact layout */
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+
+  .faq-container .content,
+  .faq-container2 .content {
+    max-width: 100%; /* Utilize the full width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .faq-container h1,
+  .faq-container2 h1 {
+    font-size: 20px; /* Adjust font size */
+    color: #004f9f;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .faqs-container h2 {
+    color: #004f9f;
+    font-size: 18px; /* Smaller font size */
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .faq-container h3,
+  .faq-container2 h3 {
+    font-size: 16px; /* Adjust heading font size */
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .faq-container ul,
+  .faq-container2 ul {
+    margin: 10px 0;
+    padding-left: 15px; /* Adjust padding for mobile */
+    text-align: left;
+  }
+
+  .faq-container ul li,
+  .faq-container2 ul li {
+    margin: 8px 15px; /* Reduce spacing for compactness */
+    font-size: 14px; /* Smaller text size */
+    text-align: left;
+  }
+
+  .faq-container p,
+  .faq-container2 p {
+    margin: 10px 0;
+    max-width: 100%; /* Allow full width on mobile screens */
+    font-size: 14px; /* Adjust font size for readability */
+    text-align: left;
+  }
+
+  .faq-container a,
+  .faq-container2 a {
+    color: #004f9f;
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px; /* Adjust link font size */
+  }
+
+  .faq-container a:hover,
+  .faq-container2 a:hover {
+    text-decoration: underline;
+  }
+}

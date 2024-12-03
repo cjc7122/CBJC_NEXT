@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; /* Lato Bold */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (min-width: 755px) {
+  .page-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Services section */
+  .services {
+    padding: 0px 20px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .services hr {
+    width: 25%; /* Adjust the width of the <hr /> */
+    margin: 10px auto; /* Center the <hr /> by setting left and right margins to 'auto' */
+    border: none; /* Remove default border */
+    border-top: 2px solid #ccc; /* Custom border style for the line */
+  }
+
+  .grid-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates the 2x2 grid */
+    gap: 20px; /* Adds space between the grid items */
+    padding: 20px;
+    margin-top: 20px; /* Adds space above the grid */
+    width: 90%;
+    max-width: 1000px;
+  }
+
+  .service-item {
+    background-color: #5d8aa8; /* Blue background for each service */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer; /* Makes the div behave like a button */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .service-item img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .service-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .learn-more-text {
+    font-size: 1rem;
+    color: white; /* Keeps the text white */
+    margin-top: 10px;
+  }
+
+  .service-item:hover {
+    background-color: #4c7391; /* Change background color on hover */
+    transform: scale(1.02); /* Slight zoom effect on hover */
+  }
+
+  /* New Section Styles */
+  .info-section {
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px auto;
+    max-width: 800px;
+  }
+
+  .info-section h2 {
+    font-size: 30px;
+    color: #333;
+  }
+
+  .info-section hr {
+    width: 50%;
+    margin: 10px auto;
+    border-top: 2px solid #ccc;
+  }
+
+  .info-section h3 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .info-section p {
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 800px;
+  }
+
+  .highlighted-text {
+    font-size: 24px;
+    color: #66a1ff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .address {
+    font-style: italic;
+    color: #666;
+    font-size: 16px;
+  }
+
+  .learn-more-btn {
+    background-color: #1e4b8d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .learn-more-btn:hover {
+    background-color: grey;
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 755px) {
+  .page-wrapper {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Services Section */
+  .services {
+    padding: 10px 20px; /* Adds padding for smaller screens */
+    text-align: center;
+    align-items: center;
+  }
+
+  .services hr {
+    width: 75%; /* Adjust the width of the <hr /> */
+    margin: 10px auto; /* Center the <hr /> */
+    border: none; /* Remove default border */
+    border-top: 2px solid #ccc; /* Custom border style */
+  }
+
+  .grid-holder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Creates the 2x2 grid */
+    gap: 20px; /* Adds space between the grid items */
+    padding: 20px;
+    margin-top: 0px; /* Adds space above the grid */
+    width: 100%
+  }
+
+  .service-item {
+    background-color: #5d8aa8;
+    color: white;
+    padding: 20px; /* Reduced padding for smaller screens */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .service-item img {
+    width: 40px; /* Smaller image size for small screens */
+    height: 40px;
+    margin: 10px 0;
+  }
+
+  .service-item h2 {
+    font-size: 1.25rem; /* Smaller font size for headings */
+    margin-bottom: 10px;
+  }
+
+  .learn-more-text {
+    font-size: 0.9rem; /* Reduced font size */
+    color: white;
+    margin-top: 10px;
+  }
+
+  .service-item:hover {
+    background-color: #4c7391;
+    transform: scale(1.02);
+  }
+
+  /* Info Section */
+  .info-section {
+    padding: 20px; /* Reduced padding */
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto; /* Centered and spaced */
+    max-width: 90%;
+  }
+
+  .info-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .info-section hr {
+    width: 75%;
+    margin: 10px auto;
+    border-top: 2px solid #ccc;
+  }
+
+  .info-section h3 {
+    font-size: 20px; /* Smaller font size */
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .info-section p {
+    font-size: 16px; /* Adjusted for smaller screens */
+    color: #666;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  .highlighted-text {
+    font-size: 18px; /* Reduced size */
+    color: #66a1ff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .address {
+    font-style: italic;
+    color: #666;
+    font-size: 14px; /* Reduced font size */
+  }
+
+  .learn-more-btn {
+    top: 0;
+    left: 0;
+    background-color: #1e4b8d;
+    color: white;
+    border: none;
+    display: flex; /* Center the text */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Larger font for emphasis */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000; /* Ensure it's above all other content */
+  }
+
+  .learn-more-btn:hover {
+      background-color: grey; /* Change color on hover */
+      transform: scale(1.02); /* Slight zoom effect on hover */
+  }
+
+}

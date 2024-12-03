@@ -1,0 +1,176 @@
+  body {
+    line-height: 1.6;
+    background-color: white
+  }
+
+  @media (min-width: 755px) {
+    .advisories-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px auto;
+      padding: 0px 0px 20px 0px;
+      text-align: center;
+      background-color: #fff;
+      position: relative;
+      overflow: visible;
+    }
+
+    .advisory-container {
+      min-width: 600px;
+      background-color: #fff;
+      padding-top: 20px;
+      border-radius: 8px;
+    }
+
+    .advisory-container .content {
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+    }
+
+    .advisory-container h1 {
+      font-size: 24px;
+      color: #004f9f;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+    
+    .advisories-container h2 {
+      color: #004f9f;
+      font-size: 24px;
+      margin: 10px 0px 0px 0px;
+      text-align: center;
+    }
+
+    .advisories-container .advisory-container h2 {
+      color: #004f9f;
+      font-size: 20px;
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    .advisory-container h3 {
+      font-size: 18px;
+      margin-top: 15px;
+      text-align: left;
+    }
+    
+    .advisory-container ul {
+      margin: 15px 0;
+      padding-left: 20px;
+      text-align: left;
+    }
+    
+    .advisory-container ul li {
+      margin: 10px 20px;
+      text-align: left;
+    }
+
+    .advisory-container ul p {
+      margin: 15px -20px;
+    }
+    
+    .advisory-container p {
+      margin: 15px 0px;
+      max-width: 800px;
+      text-align: left;
+    }
+    
+    .advisory-container a {
+      color: #004f9f;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    .advisory-container a:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  @media (max-width: 755px) {
+    .advisories-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 15px; /* Add spacing for smaller screens */
+      text-align: center;
+      background-color: #fff;
+      overflow: hidden; /* Prevent any overflow issues */
+    }
+  
+    .advisory-container {
+      width: 100%; /* Use full width for mobile screens */
+      background-color: #fff;
+      padding: 10px; /* Adjust padding for compact layout */
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+  
+    .advisory-container .content {
+      max-width: 100%; /* Utilize the full width */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .advisory-container h1 {
+      font-size: 20px; /* Adjust font size */
+      color: #004f9f;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+  
+    .advisories-container h2 {
+      color: #004f9f;
+      font-size: 18px; /* Smaller font size */
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .advisory-container h3 {
+      font-size: 16px; /* Adjust heading font size */
+      margin-top: 10px;
+      text-align: left;
+    }
+  
+    .advisory-container ul {
+      margin: 10px 0;
+      padding-left: 15px; /* Adjust padding for mobile */
+      text-align: left;
+    }
+  
+    .advisory-container ul li {
+      margin: 8px 15px; /* Reduce spacing for compactness */
+      font-size: 14px; /* Smaller text size */
+      text-align: left;
+    }
+  
+    .advisory-container ul p {
+      margin: 10px 0; /* Adjust margins for paragraph inside list */
+      font-size: 14px; /* Consistent font size */
+    }
+  
+    .advisory-container p {
+      margin: 10px 0;
+      max-width: 100%; /* Use full width for mobile screens */
+      font-size: 14px; /* Adjust font size for readability */
+      text-align: left;
+    }
+  
+    .advisory-container a {
+      color: #004f9f;
+      text-decoration: none;
+      text-align: left;
+      font-size: 14px; /* Adjust link font size */
+    }
+  
+    .advisory-container a:hover {
+      text-decoration: underline;
+    }
+  }
+  

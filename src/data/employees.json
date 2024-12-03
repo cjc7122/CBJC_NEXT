@@ -1,0 +1,106 @@
+{
+  "Employees": [
+    {
+      "Name": "Steven R. Bourret",
+      "Title": "CPA, CGMA",
+      "Email": "sbourret@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Lisa A. Cain",
+      "Title": "Staff Accountant",
+      "Email": "lcain@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Jayne Conlon",
+      "Title": "Bookkeeper",
+      "Email": "jconlon@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Isabella R. Colasacco",
+      "Title": "MLIS",
+      "Email": "officemanager@cbjv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Kristin M. Cressman",
+      "Title": "CPA, MST",
+      "Email": "kcressman@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Mary E. Dupuis",
+      "Title": "EA",
+      "Email": "staff@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Sherry Ducharme",
+      "Title": "CPA, MBA",
+      "Email": "sducharme@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "David A. Jarry",
+      "Title": "CPA, MST",
+      "Email": "djarry@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Kevin T. Jarry",
+      "Title": "CPA, MBA, MST",
+      "Email": "kjarry@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Donna J. Jones",
+      "Title": "Staff Accountant",
+      "Email": "djones@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Richard A. Kerouac",
+      "Title": "EA",
+      "Email": "rkerouac@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Steven Lowry",
+      "Title": "CPA, MSA",
+      "Email": "slowry@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Kara M. McSwiggin",
+      "Title": "CPA, MSA",
+      "Email": "kmcswiggin@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Carmel Pappas",
+      "Title": "CPA",
+      "Email": "cpappas@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Renèe B. Plummer",
+      "Title": "CPA",
+      "Email": "rplummer@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Ann Trainor",
+      "Title": "Staff Accountant",
+      "Email": "atrainor@cbjiv.com",
+      "Phone": ""
+    },
+    {
+      "Name": "Beth A. Weeks",
+      "Title": "EA",
+      "Email": "bethweeks@cbjiv.com",
+      "Phone": "603-432-9222"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+/* Main wrapper for the content and footer */
+.page-wrapper {
+  line-height: 1.6;
+}
+
+@media (min-width: 755px) {
+  /* Venmo container */
+  .venmos-container {
+    flex: 1;  /* This ensures the content takes up the remaining space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 0px 20px 0px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+  }
+
+  .venmo-container {
+    min-width: 600px;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  /* Styling for company logo */
+  .company-logo {
+    max-width: 50%;
+    height: auto;
+  }
+
+  /* Instructions paragraph */
+  .instructions {
+    font-size: 16px;
+    color: #333;
+    margin: 0 auto; /* Centers the instructions horizontally */
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: center; /* Centers text within the paragraph */
+  }
+
+
+  /* Venmo info */
+  .venmo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .venmo-handle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0px;
+  }
+
+  .qr-code {
+    max-width: 200px;
+    height: auto;
+  }
+
+  /* Ensure the footer stays at the bottom */
+  footer {
+    margin-top: auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 755px) {
+  /* Venmo container */
+  .venmos-container {
+    flex: 1; /* Ensure the content stretches to fill available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  .venmo-container {
+    width: 100%; /* Full width for mobile */
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding in element's size */
+  }
+
+  /* Styling for company logo */
+  .company-logo {
+    max-width: 70%; /* Adjust logo size for smaller screens */
+    height: auto;
+    margin-bottom: 20px; /* Add spacing below the logo */
+  }
+
+  /* Instructions paragraph */
+  .instructions {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    color: #333;
+    padding: 0px 10px;
+    margin: 0 auto 15px auto; /* Center instructions with spacing */
+    line-height: 1.4; /* Adjust line height for readability */
+    text-align: center;
+  }
+
+  /* Venmo info */
+  .venmo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Add spacing between elements */
+  }
+
+  .venmo-handle {
+    font-size: 20px; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+
+  .qr-code {
+    max-width: 150px; /* Smaller QR code for mobile */
+    height: auto;
+    margin-top: 10px; /* Add spacing above the QR code */
+  }
+
+  /* Footer adjustments for mobile */
+  footer {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center; /* Center-align footer content */
+    padding: 10px 0;
+    font-size: 12px; /* Adjust font size for readability */
+  }
+}

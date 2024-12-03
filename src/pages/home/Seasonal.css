@@ -1,0 +1,90 @@
+/* General Styling */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Seasonal Container */
+.seasonals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.seasonal-container {
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.seasonal-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.seasonal-container ul {
+  list-style: disc;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: left;
+  color: #333;
+}
+
+.seasonal-container ul li {
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.pdf-button {
+  background-color: #5d8aa8;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-button:hover {
+  background-color: #4c7391;
+}
+
+/* Note Styling */
+.note {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.note .contact-link {
+  color: #5d8aa8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.note .contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .overlay p {
+    font-size: 1rem;
+  }
+
+  .seasonal-container {
+    padding: 20px;
+  }
+}

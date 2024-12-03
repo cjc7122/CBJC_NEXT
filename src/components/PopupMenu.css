@@ -1,0 +1,87 @@
+.popup-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+  color: white;
+  z-index: 1000; /* Ensure it is above other elements */
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-100%);
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 10px 20px 120px 20px; /* Add padding for better text spacing */
+  box-sizing: border-box; /* Include padding in element dimensions */
+  transition: transform 0.5s ease-in-out;
+}
+
+.popup-menu.open {
+  transform: translateY(0); /* Make the menu visible */
+}
+
+.close-menu {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.popup-menu-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 50px; /* Add space below the close button */
+  width: 100%;
+  overflow-wrap: break-word; /* Break long words to avoid overflow */
+}
+
+.popup-menu-list li {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.submenu {
+  list-style: none;
+  padding: 0 10px; /* Add padding for better structure */
+  text-align: left; /* Align submenu items to the left */
+}
+
+.submenu li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.submenu li a {
+  color: #bbb;
+  text-decoration: none;
+  word-wrap: break-word; /* Wrap long words in links */
+}
+
+.popup-menu-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.popup-menu-list li a:hover {
+  color: #66a1ff; /* Highlight color on hover */
+}
+
+/* Scrollbar styling (optional) */
+.popup-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.popup-menu::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.popup-menu::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}

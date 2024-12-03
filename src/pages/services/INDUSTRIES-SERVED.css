@@ -1,0 +1,116 @@
+  body {
+    line-height: 1.6;
+    background-color: white
+  }
+
+  @media (min-width: 755px) {
+    .industries-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0px 0px 20px 0px;
+      text-align: center;
+      background-color: #fff;
+      position: relative; /* Allow positioned children to extend beyond the container */
+      overflow: visible; /* Ensure children can extend beyond boundaries */
+    }
+
+    .industry-container {
+      display: flex;
+      justify-content: center;
+      min-width: 600px;
+      background-color: #fff;
+      padding-top: 20px;
+      border-radius: 8px;
+      align-items: center;
+    }
+    
+    .industry-container h3 {
+      font-size: 18px;
+      margin-top: 15px;
+      text-align: center;
+    }
+    
+    .industry-container ul {
+      padding: 0;
+      margin: 15px 0;
+      text-align: left;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px 40px; /* Adjust gap between columns if needed */
+      margin-left: 40px;
+    }
+    
+    .industry-container ul li {
+      text-align: left;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    
+    .industry-container a {
+      color: #004f9f;
+      text-decoration: none;
+      text-align: center;
+    }
+    
+    .industry-container a:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  @media (max-width: 755px) {
+    .industries-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding: 15px;
+      text-align: center;
+      background-color: #fff;
+      overflow: hidden; /* Prevent overflow issues */
+    }
+  
+    .industry-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Align items to the start for better readability */
+      width: 100%; /* Use full width on mobile screens */
+      background-color: #fff;
+      padding: 15px; /* Add padding for mobile layout */
+      border-radius: 8px;
+      box-sizing: border-box; /* Ensure consistent sizing */
+    }
+    
+    .industry-container h3 {
+      font-size: 16px; /* Smaller font size for mobile */
+      margin-top: 10px;
+      text-align: left; /* Align to left for readability */
+    }
+    
+    .industry-container ul {
+      padding: 0;
+      margin: 10px 0;
+      text-align: left;
+      display: flex; /* Use flex layout for a single column */
+      flex-direction: column;
+      gap: 10px; /* Add spacing between list items */
+    }
+    
+    .industry-container ul li {
+      text-align: left;
+      font-size: 16px; /* Adjust font size for mobile */
+      margin: 8px 0;
+    }
+    
+    .industry-container a {
+      color: #004f9f;
+      text-decoration: none;
+      font-size: 14px; /* Smaller font size for links */
+      text-align: left;
+    }
+    
+    .industry-container a:hover {
+      text-decoration: underline;
+    }
+  }

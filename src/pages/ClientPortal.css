@@ -1,0 +1,127 @@
+.page-wrapper {
+  line-height: 1.6;
+}
+
+@media (min-width: 755px) {
+  /* Main container for the portal page */
+  .portals-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: relative; /* Allow positioned children to extend beyond the container */
+    overflow: visible;
+  }
+
+  .portal-container {
+    min-width: 600px;
+    background-color: #fff;
+    padding-top: 20px;
+    border-radius: 8px;
+  }
+
+  /* Paragraph styling */
+  .portal-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+
+  /* Portal access section */
+  .portal-access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Button styling */
+  .portal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #5d8aa8;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .portal-button:hover {
+    background-color: #4c7391;
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 755px) {
+  /* Main container for the portal page */
+  .portals-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+  .portal-container {
+    width: 100%; /* Use full width for mobile */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Paragraph styling */
+  .portal-container p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    max-width: 100%; /* Allow full width on mobile */
+  }
+
+  /* Portal access section */
+  .portal-access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Add spacing between elements */
+  }
+
+  /* Button styling */
+  .portal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    background-color: #5d8aa8;
+    width: 100%; /* Make buttons full-width on mobile */
+    max-width: 300px; /* Optional: Limit button width */
+    height: auto; /* Allow height to adjust naturally */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust font size for readability */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't affect size */
+  }
+
+  .portal-button:hover {
+    background-color: #4c7391;
+    transform: scale(1.02);
+  }
+}

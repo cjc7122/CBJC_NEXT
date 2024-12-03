@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700; /* Lato Bold */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (min-width: 755px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position at the top */
+    left: 0;
+    width: 100%;
+    min-height: 100px;
+    z-index: 999;
+    background-color: white;
+    padding: 20px;
+    color: rgb(0, 0, 82);
+  }
+
+  .menu-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+  }
+
+  .menu-bar:last-child {
+    margin-bottom: 0;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  header img.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  .logo-container .logo-label {
+    font-size: 24px;
+    color: rgb(0, 0, 82);;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .contact-info button {
+    background-color: rgb(30, 75, 141); /* Blue background for the button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-info button:hover {
+    background-color: grey; /* Darker blue on hover */
+  }
+
+  /* Header.css */
+  .announcement-bar {
+    background-color: #f5c518; /* Example color for the announcement bar */
+    color: #333;
+    text-align: center;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-top: 190px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+
+  .announcement-bar p {
+    margin: 10px;
+    max-width: 80%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    display: inline-block;
+  }
+}
+
+@media (max-width: 755px) {
+  .desktop-menu {
+    display: none; /* Hide desktop menu on small screens */
+  }
+
+  .menu-button {
+    display: flex; /* Show menu button on small screens */
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100px;
+    z-index: 999;
+    background-color: white;
+    padding: 0px;
+    color: rgb(0, 0, 82);
+  }
+
+  .menuHolder {
+    display: flex;
+    flex-direction: column; /* Arrange items in a vertical column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 10px; /* Optional: Add padding */
+  }
+
+  /* Contact info on top, centered, and horizontal */
+  .contact-info {
+    display: none;
+  }
+
+  /* Logo in the center */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+
+  .logo-container .logo-label {
+    font-size: 22px;
+    color: rgb(0, 0, 82);;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    width: fit-content;
+  }
+
+  header img.logo {
+    width: 27%;
+    max-width: 90px;
+    margin-right: 10px;
+  }
+
+  /* Menu button aligned to the left */
+  .menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 28px;
+    padding: 0;
+  }
+
+  .menu-bar {
+    width: 30px;
+    height: 4px;
+    background-color: #000; /* Adjust the color */
+    border-radius: 2px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  /* Header.css */
+  .announcement-bar {
+    background-color: #f5c518; /* Example color for the announcement bar */
+    color: #333;
+    text-align: center;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 10000000;
+    margin-top: 150px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+  }
+
+  .announcement-bar p {
+    margin: 10px;
+    max-width: 80%;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow */
+    display: inline-block;
+  }
+}
