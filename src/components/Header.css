@@ -66,13 +66,7 @@ code {
   }
 
   .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    position: absolute;
-    right: 55px;
-    top: 50%;
-    transform: translateY(-50%);
+    display: none;
   }
 
   .contact-info button {
@@ -110,10 +104,11 @@ code {
 
   .announcement-bar p {
     margin: 10px;
-    max-width: 80%;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflow */
+    max-width: 90%;
+    white-space: normal;
+    overflow: visible;
     display: inline-block;
+    text-align: center;
   }
 }
 
@@ -204,7 +199,7 @@ code {
 
   /* Header.css */
   .announcement-bar {
-    background-color: #f5c518; /* Example color for the announcement bar */
+    background-color: #f5c518;
     color: #333;
     text-align: center;
     padding: 0px;
@@ -214,16 +209,17 @@ code {
     width: 100%;
     z-index: 10000000;
     margin-top: 150px;
-    display: flex; /* Enable flexbox */
-    align-items: center; /* Center content vertically */
-    justify-content: center; /* Center content horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .announcement-bar p {
     margin: 10px;
-    max-width: 80%;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflow */
+    max-width: 90%;
+    white-space: normal;
+    overflow: visible;
     display: inline-block;
+    text-align: center;
   }
 }

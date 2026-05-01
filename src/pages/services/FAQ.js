@@ -14,8 +14,8 @@ const FAQ = () => {
   return (
     <>
       <Helmet>
-        <title>Frequently Asked Questions - Cain, Bourret, Jarry & Cressman LLC</title>
-        <meta name="description" content="Find answers to common tax questions about levies, liens, penalty abatements, tax audits, and more. Cain, Bourret, Jarry & Cressman LLC is here to help." />
+        <title>Tax & Accounting FAQ | CPA Firm Dracut MA | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Answers to common tax questions from licensed CPAs in Dracut, MA. Learn about IRS levies, liens, tax audits, penalty abatement, and more in plain language." />
         <link rel="canonical" href="https://cbjv.com/services/FAQ" />
       </Helmet>
       <div className="page-wrapper">
@@ -24,46 +24,46 @@ const FAQ = () => {
           <div className="overlay">
             <h1>Frequently Asked Questions</h1>
             <hr />
-            <h2>Your Tax Questions Answered</h2>
+            <h2>Plain-Language Answers to Common Tax Questions</h2>
           </div>
         </div>
         <div className="faqs-container">
           <div className="faq-container">
             <div className="content">
-              <p>The following is a description of the actions the IRS can take to compromise your daily lifestyle. If you want to learn more about how we can help, then contact our representatives immediately.</p>
+              <p>Tax law can feel overwhelming — especially when you encounter unfamiliar terms in a notice or letter. Below are clear explanations of common IRS concepts. If your situation isn&#39;t covered here, we&#39;re always happy to talk it through with you directly.</p>
             </div>
           </div>
-          <h3><Link href="/contact/ContactUs" className="cta-button">Contact an Advisor Now</Link></h3>
+          <h3><Link href="/contact/ContactUs" className="cta-button">Speak With an Advisor</Link></h3>
           <div className="faq-container2">
             <div className="content">
-              <h2>Q. What Are Levies?</h2>
-              <p>A. Levies are a powerful tool the IRS uses to enforce tax collection. When the IRS issues a levy, it signifies that they have attempted to contact you about your tax debt without success. A levy allows the IRS to seize your assets, including wages (known as garnishment), bank accounts, vehicles, stocks, bonds, and other property. They will only take the amount necessary to cover your tax debt, leaving you with any excess funds. At Cain, Bouret, Jarry & Cressman LLC, we can often help you get these levies released and assist you in finding a manageable solution to resolve your tax issues.</p>
+              <h2>Q. What Is a Tax Levy?</h2>
+              <p>A. A levy is a collection action the IRS may use after other contact attempts have been unsuccessful. It allows the IRS to collect against specific assets — such as wages, bank accounts, or property — up to the amount owed. If you receive a levy notice, acting promptly gives you the best range of options. Our team can help you understand your rights, communicate with the IRS, and work toward a resolution.</p>
 
-              <h2>Q. What Are Liens?</h2>
-              <p>A. A lien is a legal claim the IRS places on your assets when you have unpaid taxes. This lien secures the government&#39;s interest in your property, including personal and business assets. A lien can affect everything you own, and in the case of business owners, it can even extend to accounts receivable. This means the IRS can potentially claim assets and funds from your business to satisfy your tax debt.</p>
+              <h2>Q. What Is a Tax Lien?</h2>
+              <p>A. A tax lien is a legal claim the IRS files against your property when a tax balance goes unpaid. It protects the government&#39;s interest in your assets and can affect your credit and ability to sell or refinance property. Liens can often be addressed through payment arrangements, appeals, or other relief options — and we can walk you through the process.</p>
 
               <h2>Q. What Are Dissipated Assets?</h2>
-              <p>A. Dissipated Assets refer to funds or property that you have sold, withdrawn, or otherwise disposed of, especially in the period leading up to or during your tax issues. For example, if you withdrew $50,000 from your 401(k) and used it for personal expenses while owing back taxes, the IRS might view this as a way to bypass your tax liability. If discovered, these dissipated assets can increase the amount you need to pay as part of an Offer in Compromise. We carefully review your financial situation to avoid issues with dissipated assets before submitting an offer to the IRS.</p>
+              <p>A. In the context of an IRS Offer in Compromise, dissipated assets are funds or property transferred, sold, or used for non-essential purposes while a tax debt was outstanding. The IRS may consider these when evaluating your ability to pay. We carefully review your full financial picture before submitting any offer to ensure it accurately reflects your situation.</p>
 
-              <h2>Q. What Is an Amended (Tax) Return?</h2>
-              <p>A. An amended return is a revised tax return submitted to correct errors or omissions on a previously filed return. It can be used to claim additional refunds due to newly available deductions, credits, or corrections. Amended returns can help adjust your tax liability for prior years, potentially resulting in a refund if you overpaid taxes.</p>
+              <h2>Q. What Is an Amended Tax Return?</h2>
+              <p>A. An amended return lets you correct a previously filed tax return — whether to fix an error, add overlooked deductions, or adjust reported income. Depending on the changes, an amendment can result in a refund or a reduction in what you owe. There is generally a three-year window to claim a refund on an amended return.</p>
 
-              <h2>Q. What Are Penalty Abatements?</h2>
-              <p>A. Penalty abatement is the process of reducing or eliminating penalties imposed by the IRS for late filing or payment of taxes. While it doesn’t remove the underlying tax liability, it can significantly reduce the additional financial burden caused by penalties. This process involves demonstrating reasonable cause or other qualifying conditions to justify the reduction of penalties.</p>
+              <h2>Q. What Is Penalty Abatement?</h2>
+              <p>A. Penalty abatement is a formal request to reduce or remove IRS penalties for late filing or late payment. It does not eliminate the underlying tax owed, but can meaningfully reduce your total balance. The IRS grants abatements based on reasonable cause — such as illness, natural disaster, or reliance on incorrect advice. We can evaluate your eligibility and prepare the request on your behalf.</p>
 
-              <h2>Q. What is a Statute of Limitations (Collections)?</h2>
-              <p>A. The statute of limitations for tax collection is the legal time limit within which the IRS can assess and collect taxes. For collections, this period is generally 10 years from the date of the tax assessment. However, certain actions, such as submitting an Offer in Compromise or filing for bankruptcy, can extend or toll this period.</p>
+              <h2>Q. What Is the Statute of Limitations on Tax Collections?</h2>
+              <p>A. The IRS generally has 10 years from the date of assessment to collect a tax debt. Certain actions — such as submitting an Offer in Compromise or filing for bankruptcy — can pause or extend this period. Understanding where a debt stands relative to the statute of limitations is an important part of any tax resolution strategy.</p>
 
-              <h2>Q. What is a Wage Levy?</h2>
-              <p>A. A wage levy is a type of levy specifically targeting your wages. The IRS can issue a wage levy to your employer, directing them to withhold a portion of your paycheck to satisfy your tax debt. This levy remains in effect until the IRS releases it, and it often takes a significant portion of your wages, potentially leaving you with insufficient funds for living expenses.</p>
+              <h2>Q. What Is a Wage Levy?</h2>
+              <p>A. A wage levy (sometimes called wage garnishment) directs your employer to withhold a portion of each paycheck and send it to the IRS until the balance is satisfied or the levy is released. If you&#39;ve received a wage levy notice, we can act quickly to explore options for release or an alternative resolution.</p>
 
               <h2>Q. What Is a Tax Audit?</h2>
-              <p>A. A tax audit is an examination conducted by the IRS or other tax agencies to verify that you have reported your income and expenses accurately and have paid the correct amount of taxes. Audits can be random or triggered by discrepancies in your tax filings, and they involve reviewing your financial records and tax returns to ensure compliance with tax laws.</p>
+              <p>A. A tax audit is an IRS review of your filed return to verify that your income, deductions, and credits are accurate. Audits can be correspondence-based (by mail) or in-person, and range from simple document requests to full examinations. Having a CPA or enrolled agent represent you ensures your rights are protected and your response is well-prepared.</p>
               
-              <p>If you’re facing any of these issues or need assistance navigating complex tax situations, contact Cain, Bourret, Jarry & Cressman LLC. We’re here to help you understand your options and work towards resolving your tax problems effectively.</p>
+              <p>Have a question not covered here? <Link href="/contact/ContactUs" className="contact-link">Reach out</Link> — we&#39;re happy to help you understand your options, no pressure and no jargon.</p>
             </div>
           </div>
-          <h3><Link href="/contact/ContactUs" className="cta-button">Contact an Advisor Now</Link></h3>
+          <h3><Link href="/contact/ContactUs" className="cta-button">Contact an Advisor</Link></h3>
         </div>
         <Footer />
       </div>

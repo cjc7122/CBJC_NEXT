@@ -27,10 +27,6 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="contact-info">
-          <button onClick={() => (window.location.href = '/admin')}>Admin Login</button>
-        </div>
-
         <div className="menuHolder">
           <Link href="/" className="logo-container">
             {/* Replace <img> with <Image> */}

@@ -93,10 +93,10 @@ const Careers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers - Join Our Team at Cain, Bourret, Jarry & Cressman LLC</title>
+        <title>Careers | CPA Firm Dracut MA | Cain, Bourret, Jarry & Cressman LLC</title>
         <meta
           name="description"
-          content="Explore exciting career opportunities at Cain, Bourret, Jarry & Cressman LLC. Apply for open positions in accounting, auditing, tax planning, and more."
+          content="Join the team at Cain, Bourret, Jarry & Cressman LLC in Dracut, MA. View open positions in accounting, tax, and financial services in the Merrimack Valley."
         />
         <link rel="canonical" href="https://cbjv.com/contact/Careers" />
       </Helmet>

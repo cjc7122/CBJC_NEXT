@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
+import { verifyToken } from '../../utils/verifyToken';
 
 // Helper function to get the file path
 const getFilePath = () => path.join(process.cwd(), 'src', 'data', 'employees.json');
@@ -18,6 +19,12 @@ const writeEmployees = async (data) => {
 };
 
 export default async function handler(req, res) {
+  try {
+    verifyToken(req);
+  } catch {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }

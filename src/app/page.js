@@ -3,10 +3,58 @@ import React, { useEffect } from 'react';
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
 import Link from 'next/link';
+import Script from 'next/script';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './Home.css';
 import './globals.css';
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "Cain, Bourret, Jarry & Cressman LLC",
+  "description": "Full-service CPA firm providing tax planning, accounting, audit, payroll, and advisory services to individuals and businesses throughout the Merrimack Valley.",
+  "url": "https://cbjv.com",
+  "logo": "https://cbjv.com/CBJC_Logo.png",
+  "image": "https://cbjv.com/CBJC_Logo.png",
+  "telephone": "+1-978-957-1421",
+  "faxNumber": "+1-978-957-3480",
+  "email": "contact@cpa1421.com",
+  "foundingDate": "1992",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1175 Mammoth Road, Suite 2A",
+    "addressLocality": "Dracut",
+    "addressRegion": "MA",
+    "postalCode": "01826",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.6918,
+    "longitude": -71.2997
+  },
+  "areaServed": [
+    "Dracut, MA", "Lowell, MA", "Chelmsford, MA", "Tewksbury, MA",
+    "Westford, MA", "Dunstable, MA", "Londonderry, NH", "Merrimack Valley"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:30",
+    "closes": "17:00"
+  },
+  "sameAs": [],
+  "priceRange": "$$",
+  "hasMap": "https://www.google.com/maps/place/1175+Mammoth+Road,+Suite+2A,+Dracut,+MA+01826",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-978-957-1421",
+    "contactType": "customer service",
+    "areaServed": "US",
+    "availableLanguage": "English"
+  }
+};
 
 function Home() {
   const router = useRouter();
@@ -22,6 +70,11 @@ function Home() {
 
   return (
     <div className="page-wrapper">
+      <Script
+        id="local-business-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <Header />
       <div className="background-section">
         <div className="overlay">
@@ -61,22 +114,22 @@ function Home() {
         <div className="info-section">
           <h2>Certified Public Accountants & Business Advisors</h2>
           <hr />
-          <h3>Expert Accounting, Tax and Business Guidance</h3>
-          <p className="highlighted-text">Who is the Most Important Person in Our Firm? You!</p>
+          <h3>Proactive Financial Strategy for Individuals & Businesses</h3>
+          <p className="highlighted-text">Your financial goals drive everything we do.</p>
           <p>
-            Our professional team is available when you need us with personalized
-            attention tailored to fit your specific needs. Open communication is vital
-            to a good client-professional relationship. We want you to feel comfortable
-            asking us questions and discussing your concerns at all times. You will find
-            us to be good listeners and responsive to your needs.
+            With over 30 years of experience serving the Merrimack Valley, our team
+            brings the depth of a large firm with the personal attention only a
+            close-knit practice can offer. We take time to understand your situation,
+            ask the right questions, and build a strategy tailored specifically to you —
+            not a template.
           </p>
-          <h3>You have Questions? We have Answers!</h3>
-          <p>Call (978) 957-1421 Today for a Free Consultation!</p>
-          <p>Monday - Friday, 8:30 a.m. - 5:00 p.m.</p>
-          <p className="address">1175 Mammoth Rd, Dracut MA 01826</p>
-          <p>We&#39;re Dedicated to Your Success!</p>
+          <h3>Ready to get started?</h3>
+          <p>Call (978) 957-1421 for a complimentary consultation.</p>
+          <p>Monday – Friday, 8:30 a.m. – 5:00 p.m.</p>
+          <p className="address">1175 Mammoth Rd, Suite 2A, Dracut MA 01826</p>
+          <p>We&#39;re here year-round — not just at tax time.</p>
           <Link href="/firm/OurTeam" className="learn-more-btn">
-            Learn More
+            Meet Our Team
           </Link>
         </div>
       </div>

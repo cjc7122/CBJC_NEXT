@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image'; // Importing Next.js Image component
+import Image from 'next/image';
 import './CreditCard.css'; 
 import '../../app/globals.css';
 import Header from '../../components/Header';
@@ -14,59 +14,29 @@ const CreditCard = () => {
   return (
     <>
       <Helmet>
-        <title>Pay By Credit Card - Secure Payment Portal</title>
-        <meta name="description" content="Make secure payments with your credit card. Use our convenient and easy-to-use credit card payment portal." />
-        <link rel="canonical" href="https://CBJV.com/payments/CreditCard" />
+        <title>Pay Online | Secure Payment Portal | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Make a secure online payment to Cain, Bourret, Jarry & Cressman LLC using our payment portal. Credit and debit cards accepted." />
+        <link rel="canonical" href="https://cbjv.com/payments/CreditCard" />
       </Helmet>
       <div className="page-wrapper">
         <Header />
         <div className="background-section">
           <div className="overlay">
-            <h1>Pay By Credit Card</h1>
+            <h1>Pay Online</h1>
             <hr />
             <h2>Secure Payment Portal</h2>
           </div>
         </div>
         <div className="CreditsContainer">
           <div className="CreditContainer">
-            <h2>Make a Payment</h2>
-            <p>We offer a secure and convenient way to pay your bills online using your credit card. Simply fill out the form below to complete your payment.</p>
-
-            <form className="payment-form">
-              <div className="form-group">
-                <label htmlFor="name">Name on Card</label>
-                <input type="text" id="name" placeholder="Enter cardholder name" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="cardNumber">Card Number</label>
-                <input type="text" id="cardNumber" placeholder="Enter card number" required />
-              </div>
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="expiryDate">Expiry Date</label>
-                  <input type="text" id="expiryDate" placeholder="MM/YY" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="cvv">CVV</label>
-                  <input type="text" id="cvv" placeholder="CVV" required />
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="amount">Payment Amount</label>
-                <input type="number" id="amount" placeholder="Enter payment amount" required />
-              </div>
-              <button type="submit" className="submit-button">Submit Payment</button>
-            </form>
-
-            <div className="secure-note">
-              <p><strong>Note:</strong> Your payment information is processed securely. We do not store your credit card details on our servers.</p>
-              {/* Updated Image with Next.js Image Component */}
+            <h2>Scan to Pay</h2>
+            <p>Scan the QR code below with your phone to be directed to our secure payment portal.</p>
+            <div className="qr-wrapper">
               <Image
-                src="/images/secure-payment.png"
-                alt="Secure Payment"
-                className="secure-icon"
-                width={100} // Specify the width of the image
-                height={100} // Specify the height of the image
+                src="/payment-qr.png"
+                alt="Scan to make a secure payment"
+                width={280}
+                height={280}
               />
             </div>
           </div>

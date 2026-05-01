@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* Google Fonts loaded once here, not in individual CSS files */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap');
   
   * {
     margin: 0;
@@ -10,10 +11,15 @@
   body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-weight: 700; /* Lato Bold */
+    font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     line-height: 1.6;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
   }
   
   code {
@@ -43,6 +49,12 @@
       justify-content: center;
       align-items: center;
     }
+
+    .page-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+    }
     
     .overlay h1 {
       font-size: 36px;
@@ -63,13 +75,14 @@
     }
     
     .learn-more-btn {
-      background-color: rgb(30, 75, 141); /* Blue background for the button */
+      background-color: rgb(30, 75, 141);
       color: white;
       border: none;
       border-radius: 8px;
-      padding: 10px 20px;
+      padding: 12px 28px;
       margin-top: 10px;
-      font-size: 24px;
+      font-size: 16px;
+      font-weight: 600;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
@@ -124,13 +137,14 @@
     }
     
     .learn-more-btn {
-      background-color: rgb(30, 75, 141); /* Blue background for the button */
+      background-color: rgb(30, 75, 141);
       color: white;
       border: none;
       border-radius: 8px;
-      padding: 10px 20px;
+      padding: 12px 28px;
       margin: 10px auto 0px auto;
-      font-size: 24px;
+      font-size: 16px;
+      font-weight: 600;
       cursor: pointer;
       transition: background-color 0.3s ease;
     }

@@ -9,12 +9,12 @@ const History = () => {
   return (
     <>
       <Helmet>
-        <title>History of Cain, Bourret, Jarry & Cressman LLC</title>
+        <title>Our History | CPA Firm Dracut MA | Cain, Bourret, Jarry & Cressman LLC</title>
         <meta
           name="description"
-          content="Discover the rich history of Cain, Bourret, Jarry & Cressman LLC, from its formation in 1992 to its evolution into a leading financial services firm."
+          content="Learn the history of Cain, Bourret, Jarry & Cressman LLC, a CPA firm founded in Dracut, MA in 1992. Over 30 years of accounting, tax, and advisory excellence in the Merrimack Valley."
         />
-        <link rel="canonical" href="https://yourwebsite.com/history" />
+        <link rel="canonical" href="https://cbjv.com/firm/History" />
       </Helmet>
       <div className="page-wrapper">
         <Header />

@@ -14,8 +14,8 @@ const AccountingAudit = () => {
   return (
     <>
       <Helmet>
-        <title>Accounting & Audit Services - Cain, Bourret, Jarry & Cressman LLC</title>
-        <meta name="description" content="Cain, Bourret, Jarry & Cressman LLC provides reliable accounting and audit services, including GAAP compliance, financial statement reviews, and internal control studies." />
+        <title>Accounting & Audit Services | CPA Firm | Dracut, MA | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Professional audit, review, and compilation services from a trusted CPA firm in Dracut, MA. Serving businesses in the Merrimack Valley with GAAP-compliant financial reporting and internal control studies." />
         <link rel="canonical" href="https://cbjv.com/services/ACCOUNTING-AUDIT" />
       </Helmet>
       <div className="page-wrapper">

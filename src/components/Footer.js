@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright Cain, Bourret, Jarry & Cressman LLC © 2024.</p>
+        <p>Copyright Cain, Bourret, Jarry &amp; Cressman LLC &copy; 2026.</p>
       </div>
     </footer>
   );

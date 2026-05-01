@@ -14,9 +14,9 @@ const IndustriesServed = () => {
   return (
     <>
       <Helmet>
-        <title>Industries We Serve - Cain, Bourret, Jarry & Cressman LLC</title>
-        <meta name="description" content="Explore the industries we serve, including construction, retail, technology, and more. Cain, Bourret, Jarry & Cressman LLC offers expert financial services tailored to your industry." />
-        <link rel="canonical" href="https://CBJV.com/services/INDUSTRIES-SERVED" />
+        <title>Industries We Serve | CPA Firm Dracut MA | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Specialized accounting and tax services for construction, manufacturing, non-profits, property management, retail, technology, and small businesses in Massachusetts and New Hampshire." />
+        <link rel="canonical" href="https://cbjv.com/services/INDUSTRIES-SERVED" />
       </Helmet>
       <div className="page-wrapper">
         <Header />

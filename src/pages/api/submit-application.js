@@ -44,15 +44,15 @@ export default async function handler(req, res) {
         port: 587,
         secure: false,
         auth: {
-          user: 'colin.cressman@gmail.com', // Replace with your email
-          pass: 'qvdd vcit awrm vftk', // Replace with your app-specific password
+          user: process.env.GMAIL_USER,
+          pass: process.env.GMAIL_APP_PASSWORD,
         },
       });
 
       // Email options
       const mailOptions = {
-        from: '"Careers Team" <colin.cressman@gmail.com>',
-        to: 'colin.cressman@gmail.com',
+        from: `"Careers Team" <${process.env.GMAIL_USER}>`,
+        to: process.env.GMAIL_USER,
         subject: `Job Application for ${position}`,
         text: `
           A new job application has been submitted:

@@ -1,7 +1,14 @@
 import fs from 'fs';
 import path from 'path';
+import { verifyToken } from '../../utils/verifyToken';
 
 export default function handler(req, res) {
+  try {
+    verifyToken(req);
+  } catch {
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
   // Only allow POST requests
   if (req.method === 'POST') {
     const { announcement } = req.body;

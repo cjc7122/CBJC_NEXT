@@ -1,10 +1,39 @@
 /* CreditCard.css */
 
-/* General Styles */
-  .page-wrapper {
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
+.CreditsContainer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.CreditContainer {
+  max-width: 400px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.CreditContainer h2 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.CreditContainer p {
+  margin-bottom: 24px;
+  line-height: 1.6;
+  color: #555;
+  font-size: 16px;
+}
+
+.qr-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   
   /* Credits Container */
   .CreditsContainer {

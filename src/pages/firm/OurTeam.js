@@ -28,10 +28,10 @@ const OurTeam = () => {
   return (
     <>
       <Helmet>
-        <title>Our Team - Cain, Bourret, Jarry & Cressman LLC</title>
+        <title>Our Team | CPA Firm Dracut MA | Cain, Bourret, Jarry & Cressman LLC</title>
         <meta
           name="description"
-          content="Meet the experienced team at Cain, Bourret, Jarry & Cressman LLC, including managing partners, founding partners, and our dedicated team of financial professionals."
+          content="Meet the CPAs and financial professionals at Cain, Bourret, Jarry & Cressman LLC in Dracut, MA. Serving the Merrimack Valley for over 30 years with personalized tax, accounting, and advisory services."
         />
         <link rel="canonical" href="https://cbjv.com/firm/OurTeam" />
       </Helmet>
@@ -47,24 +47,26 @@ const OurTeam = () => {
         <div className="abouts-container">
           <div className="about-container">
             <div className="content">
-              <p>At Cain, Bourret, Jarry & Cressman LLC, our dedication to delivering the highest standard of service sets us apart. We are committed to understanding your unique needs by listening carefully, asking insightful questions, and thoroughly assessing your goals and objectives. Our focus is on exceeding your expectations through exceptional service and genuine attention to detail.</p>
-              <p>Our firm expertly balances the comprehensive capabilities of a larger organization with the attentive, individualized care of a small firm. </p>
-              <p>We provide a full spectrum of tax, accounting, and financial services, supported by advanced technology. Our use of cutting-edge tax and accounting software, along with sophisticated online research tools, ensures accuracy and efficiency. </p>
-              <p>With extensive experience and a rigorous commitment to continuing education, our team remains at the forefront of industry standards and best practices. </p>
+              <p>At Cain, Bourret, Jarry &amp; Cressman LLC, we combine the depth and capability of a larger firm with the personal relationships that only a close-knit practice can offer. We listen first, ask the right questions, and build strategies around what actually matters to you.</p>
+              <p>With decades of experience and a commitment to continuous education, our team stays at the forefront of tax law, accounting standards, and financial strategy &mdash; so you always have current, reliable guidance.</p>
+              <p>We serve individuals, families, and businesses across the Merrimack Valley from our offices in Dracut, MA and Londonderry, NH &mdash; and we&#39;re available year-round, not just at tax time.</p>
             </div>
             <h1 className="partner_h1">Managing Partners</h1>
 
             <div className="abouts-postcards">
               <div className="abouts-postcard">
-                <h2>Kristin Cressman, CPA, MST, Partner</h2>
-                <p>Information about Partner 4 will go here. Include a short bio, key responsibilities, and personal information similar to the previous partners.</p>
-                <p>Be sure to include key career highlights and personal touches like favorite quotes or where they reside.</p>
+                <h2>Kristin M. Cressman, CPA, MST, Partner</h2>
+                <p>Kristin M. Cressman is a managing partner at the firm and plays a central role in overseeing client relationships and tax strategy. She is a Certified Public Accountant licensed in multiple states and holds a Master of Science in Taxation from Bentley University.</p>
+                <p>Kristin has extensive experience in accounting, tax planning, and consulting services, working closely with both individuals and businesses. She is known for providing personalized, hands-on service and building long-term client relationships tailored to each client&#39;s financial goals.</p>
+                <p>As a CPA with advanced specialization in taxation, Kristin stays current with evolving tax laws and applies that knowledge to deliver practical and effective solutions for her clients.</p>
+                <p>Kristin resides in Westford, Massachusetts.</p>
               </div>
 
               <div className="abouts-postcard">
-                <h2>Kevin Jarry, CPA, MBA, MST, Partner</h2>
-                <p>Information about Partner 3 will go here. Include a short bio, key responsibilities, and personal information similar to the previous partners.</p>
-                <p>Be sure to include key career highlights and personal touches like favorite quotes or where they reside.</p>
+                <h2>Kevin T. Jarry, CPA, MBA, MST, Partner</h2>
+                <p>Kevin T. Jarry is a managing partner at the firm with a focus on tax and advisory services. He is a Certified Public Accountant and holds both a Master of Business Administration (MBA) and a Master of Science in Taxation (MST).</p>
+                <p>Kevin works with individuals and businesses on a wide range of accounting and tax matters, including tax planning, compliance, and business consulting. His combined background in business administration and taxation allows him to provide both strategic and technical guidance to clients.</p>
+                <p>Based in Massachusetts, Kevin brings a practical, client-focused approach to helping businesses and individuals navigate complex financial and tax environments.</p>
               </div>
             </div>
             <h1 className="partner_h1">Founding Partners</h1>

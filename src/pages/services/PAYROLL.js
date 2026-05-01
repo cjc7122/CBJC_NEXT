@@ -14,9 +14,9 @@ const Payroll = () => {
   return (
     <>
       <Helmet>
-        <title>Payroll & Bookkeeping Services - Cain, Bourret, Jarry & Cressman LLC</title>
-        <meta name="description" content="Simplify payroll management and bookkeeping with Cain, Bourret, Jarry & Cressman LLC. We handle tax liabilities, payroll reports, accounting software setup, and more." />
-        <link rel="canonical" href="https://CBJV.com/services/payroll" />
+        <title>Payroll & Bookkeeping Services | CPA Firm | Dracut, MA | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Full-service payroll processing and bookkeeping for businesses in Dracut, MA and the Merrimack Valley. W-2s, 1099s, quarterly filings, and accounting software setup from licensed CPAs." />
+        <link rel="canonical" href="https://cbjv.com/services/PAYROLL" />
       </Helmet>
       <div id="service1" className="page-wrapper">
         <Header />

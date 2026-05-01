@@ -15,8 +15,8 @@ const TaxPrep = () => {
   return (
     <>
       <Helmet>
-        <title>Tax Prep Documents Checklist - Cain, Bourret Jarry & Associates LLC</title>
-        <meta name="description" content="Access the 2023 Tax Prep Documents Checklist. Get everything you need to prepare and submit your tax documents quickly and efficiently. Upload, fax, or drop-off your tax documents with ease." />
+        <title>Tax Preparation Documents Checklist - Cain, Bourret, Jarry &amp; Cressman LLC</title>
+        <meta name="description" content="Access our Tax Preparation Documents Checklist. Assemble and submit your tax documents quickly by drop-off, upload, or fax." />
         <link rel="canonical" href="https://cbjv.com/home/TaxPrep" />
       </Helmet>
       <div className="page-wrapper">
@@ -31,7 +31,7 @@ const TaxPrep = () => {
           <div className="checklist-content">
             <p>Dear Client:</p>
             <p>
-              Please use the link below to access a PDF copy of our Tax Prep Documents Checklist for 2023. Use this one-page list to assemble the items you need to drop-off or send to us to have your taxes prepared. Please be aware that not all the items on the list will be applicable to your particular situation.
+              Please use the link below to access a PDF copy of our Tax Preparation Documents Checklist. Use this one-page list to assemble the items you need to drop off or send to us to have your taxes prepared. Please note that not all items on the list will apply to your particular situation.
             </p>
             <div className="btnContainer">
               <button onClick={openPDF} className="pdf-link">

@@ -14,8 +14,8 @@ const BusinessOps = () => {
   return (
     <>
       <Helmet>
-        <title>Business Operation & Management Consulting - Cain, Bourret, Jarry & Cressman LLC</title>
-        <meta name="description" content="Cain, Bourret, Jarry & Cressman LLC offers expert business consulting services, including cash flow management, strategic planning, entity selection, and succession planning." />
+        <title>Business Advisory & Consulting | CPA Firm | Dracut, MA | Cain, Bourret, Jarry & Cressman LLC</title>
+        <meta name="description" content="Business consulting, succession planning, estate planning, and cash flow management from a CPA firm in Dracut, MA. Strategic guidance for small and mid-sized businesses in the Merrimack Valley." />
         <link rel="canonical" href="https://cbjv.com/services/BUIS-OPS" />
       </Helmet>
       <div id="service1" className="page-wrapper">
@@ -46,7 +46,7 @@ const BusinessOps = () => {
               </ul>
               <p>2. Business Succession Planning:</p>
               <ul>
-                <li>Planning for Transition: Whether you&#39;`re planning to pass your business on to the next generation, key employees, or sell to outside buyers, we help you develop a comprehensive succession plan. Our expertise ensures a smooth transition and addresses complex issues related to business continuation.</li>
+                <li>Planning for Transition: Whether you&#39;re planning to pass your business on to the next generation, key employees, or sell to outside buyers, we help you develop a comprehensive succession plan. Our expertise ensures a smooth transition and addresses complex issues related to business continuation.</li>
               </ul>
               <p>3. Estate Planning:</p>
               <ul>
